@@ -1,0 +1,11 @@
+logging:
+  level:
+    web: DEBUG
+spring:
+  application:
+    name: tweetwrangle
+twitter:
+  key: ${TWITTER_API_KEY}
+  secret: ${TWITTER_API_SECRET}
+  token: ${TWITTER_OATH_TOKEN}
+  token-secret: ${TWITTER_OATH_TOKEN_SECRET}
